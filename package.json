@@ -1,0 +1,34 @@
+{
+  "name": "lottosoa",
+  "version": "0.0.0",
+  "description": "No description",
+  "author": "",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "dependencies": {
+    "@expo/react-native-action-sheet": "3.0.3",
+    "@react-native-community/async-storage": "^1.6.1",
+    "@react-navigation/core": "^3.0.0",
+    "@react-navigation/native": "3.6.2",
+    "react": "16.8.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.1.tar.gz",
+    "react-native-gesture-handler": "^1.3.0",
+    "react-native-keyboard-aware-scrollview": "^2.1.0",
+    "react-native-modal-dropdown": "^0.7.0",
+    "react-native-paper": "2.16.0",
+    "react-native-picker-select": "^6.3.3",
+    "react-navigation": "^4.0.7",
+    "react-navigation-stack": "1.8.1",
+    "react-redux": "7.1.1",
+    "react_native_mqtt": "1.3.1",
+    "redux": ">4.0.0",
+    "redux-persist": "6.0.0"
+  },
+  "devDependencies": {
+    "expo": "^34.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
+}
