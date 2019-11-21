@@ -1,11 +1,10 @@
 import React from 'react';
-import { ListView ,Alert,Platform,TextInput,Button,View, Text,StyleSheet , ImageBackground} from 'react-native';
+import { ListView ,View, Text,StyleSheet , ImageBackground} from 'react-native';
 import Constants from 'expo-constants';
 import Fondo from '../../assets/images/back2.png'
 
 /*
-Ventana de inicio de la aplicación, donde el usuario podrá realizar la acción de 
-solicitar o reservar un espacio en el parqueo o para administrar el espacio reservado
+Ventana que muestra un listado de las recargas realizadas
 */
 export default class RecargaScreen extends React.Component {
     constructor(props) {
@@ -20,12 +19,7 @@ ListViewItemSeparator = () => {
         <View style={{ height: 1, width: "100%", backgroundColor: "#FFFFFF" }} />
     );
     };
-    /*
-    GetListViewItem = (rowData) => {
-    Alert.alert(rowData);
-    }  
-    // onPress={this.GetListViewItem.bind(this, rowData)}
-    */
+
   render() {
     return (
       

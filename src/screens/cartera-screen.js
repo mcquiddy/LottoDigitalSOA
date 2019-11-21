@@ -1,12 +1,12 @@
 import React from 'react';
 import RNPickerSelect from 'react-native-picker-select';
-import { ListItem ,List,ListView,TextInput,Button,View, Text,StyleSheet , ImageBackground} from 'react-native';
+import {TextInput,Button,View,StyleSheet , ImageBackground} from 'react-native';
 import Constants from 'expo-constants';
 import Fondo from '../../assets/images/back2.png'
 
 /*
-Ventana de inicio de la aplicación, donde el usuario podrá realizar la acción de 
-solicitar o reservar un espacio en el parqueo o para administrar el espacio reservado
+Ventana de cartera digital, donde el usuario podrá realizar recargas en un punto de venta especifico,
+para poder jugar
 */
 export default class CarteraScreen extends React.Component {
   constructor(props) {

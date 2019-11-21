@@ -7,20 +7,12 @@ import {
   View,
   Text,
   Button,
-  FlatList,
-  ActivityIndicator,
-  Image,
-  TouchableOpacity,
-  TouchableHighlight,
   ImageBackground,
 } from 'react-native';
 //import all the components we will need
 import Fondo from '../../assets/images/back2.png'
 /*
-Ventana de inicio, para el restaurante inteligente, se utilizó la estructura de código grid
-del sitio web https://aboutreact.com/example-of-gridview-using-flatlist-in-react-native/
-dado por el profesor del curso de SOA, solo se muestra un icono para llevar a la aplicación
-de parqueo, los otros campos no estan disponibles.
+Ventana de inicio, para mostrar la información general de la aplicación
 */
 export default class App extends Component {
   render() {

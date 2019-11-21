@@ -4,8 +4,7 @@ import Constants from 'expo-constants';
 import Fondo from '../../assets/images/back2.png'
 
 /*
-Ventana de inicio de la aplicación, donde el usuario podrá realizar la acción de 
-solicitar o reservar un espacio en el parqueo o para administrar el espacio reservado
+Ventana de inicio para ingresar al sistema
 */
 export default class IngresarScreen extends React.Component {
   constructor(props) {

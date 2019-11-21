@@ -1,11 +1,10 @@
 import React from 'react';
-import { TextInput,Button,View, Text,StyleSheet , ImageBackground} from 'react-native';
+import { Button,View, Text,StyleSheet , ImageBackground} from 'react-native';
 import Constants from 'expo-constants';
 import Fondo from '../../assets/images/back2.png'
 
 /*
-Ventana de inicio de la aplicación, donde el usuario podrá realizar la acción de 
-solicitar o reservar un espacio en el parqueo o para administrar el espacio reservado
+Ventana para mostrar la información del usuario
 */
 export default class UserScreen extends React.Component {
   constructor(props) {

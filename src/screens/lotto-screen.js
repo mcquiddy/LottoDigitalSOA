@@ -1,11 +1,10 @@
 import React from 'react';
-import { ListItem ,List,TextInput,Button,View, Text,StyleSheet , ImageBackground} from 'react-native';
+import { TextInput,Button,View, StyleSheet , ImageBackground} from 'react-native';
 import Constants from 'expo-constants';
 import Fondo from '../../assets/images/back2.png'
 import ModalDropdown from 'react-native-modal-dropdown';
 /*
-Ventana de inicio de la aplicación, donde el usuario podrá realizar la acción de 
-solicitar o reservar un espacio en el parqueo o para administrar el espacio reservado
+Ventana para jugar el lotto, donde muestra los 5 numeros para jugar
 */
 export default class LottoScreen extends React.Component {
   constructor(props) {
